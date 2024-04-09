@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Nanum+Pen+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nanum Pen Script", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  background-color: #7bdaf3;
+}
+
+.notes {
+  background-color: #fff;
+  margin: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.notes .tools {
+  background-color: #9ec862;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notes .tools button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.notes .main {
+  background-color: #fff;
+  height: 400px;
+  width: 100%;
+}
+
+.notes textarea {
+  outline: none;
+  border: none;
+  width: 400px%;
+  height: 100%;
+  font-family: inherit;
+  resize: none;
+  font-size: 1.2rem;
+}
+
+.notes .hidden {
+  display: none;
+}
